@@ -1,89 +1,177 @@
-*{
-    margin: 0;
-    padding: 0;
-}.main-bg{
-    width: 100%;
-    height: 95%;
+* {
+  margin: 0;
+  padding: 0;
 }
-.bg-image{
-    width: 100%;
-    height:95%;
-    position:absolute;
-      
-      z-index: 1;
+
+.main-bg {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  text-align: center;
+
 }
+
+.bg-image {
+  width: 100%;
+  height: 90%;
+
+  position: relative;
+  z-index: -1;
+
+}
+
 /* logo container */
 
 .logo {
-    width:25%;
-    height: 30%;
-    position:absolute;
-      top: 20px;
-      left: 20px;
-      z-index: 2;
+  width: 25%;
+  height: 30%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
 }
+
 /* bgcloud-left */
 
+.cloud1 {
+  width: 55%;
+  height: 55%;
 
-.cloud1{
-    width: 55%;
-    height: 55%;
-   
-    position:absolute;
-    top: 80px;
+  position: absolute;
+  top: 80px;
 
-    left:12%;
-    z-index: 2;
+  left: 12%;
+  z-index: 2;
 }
+
 /* bgcloud-right */
 
- .cloud2{
-    width: 55%;
-    height: 55%;
-    position:absolute;
-    top: 19%;
+.cloud2 {
+  width: 55%;
+  height: 55%;
+  position: absolute;
+  top: 19%;
 
-    right:4%;
-    z-index: 2;
+  right: 4%;
+  z-index: 2;
 }
+
 /* pack */
 
 .pack {
+  width: 25%;
+  height: 53%;
+  position: absolute;
+  top: 9%;
+  left: 40%;
+  z-index: 2;
+}
+
+/* bird */
+.bird {
+  width: 4%;
+  height: 4%;
+
+  position: absolute;
+  top: 9%;
+
+  left: 19%;
+  z-index: 2;
+}
+
+/* areoplane */
+.areoplane {
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  top: 13%;
+  left: 72%;
+  z-index: 2;
+}
+
+/* boat */
+.boat {
+  width: 19%;
+  height: 19%;
+
+  position: absolute;
+  top: 58%;
+
+  left: 10%;
+  z-index: 2;
+}
+
+
+@media screen and (max-width: 1231px) {
+  .main-bg {
+    height: 100%;
+  }
+
+  .bg-image {
+    height: 100%;
+  }
+
+  .pack {
     width: 25%;
     height: 53%;
     position: absolute;
-    top: 9%;
+    top: 5%;
     left: 40%;
     z-index: 2;
+  }
 }
-/* bird */
-.bird {
-    width: 4%;
-    height: 4%;
-   
-    position:absolute;
-    top: 9%;
 
-    left:19%;
-    z-index: 2;
-}
-/* areoplane */
-.areoplane {
-    width: 20%;
-    height: 10%;
+@media screen and (max-width: 741px) {
+  .main-bg {
+
+    height: 90%;
+  }
+
+  .bg-image {
+
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    z-index: -1;
+
+
+  }
+
+  .cloud1,
+  .cloud2,
+  .areoplane,
+  .bird,.boat {
+    display: none;
+  }
+
+  .logo {
+
+    width: 90%;
+    height: 20%;
     position: absolute;
-    top: 13%;
-    left: 72%;
+    top: 20px;
+    left: 20px;
     z-index: 2;
-}
-/* boat */
-.boat{
-    width: 19%;
-    height: 19%;
-   
-    position:absolute;
-    top: 58%;
 
-    left:10%;
+  }
+
+  .pack {
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 25%;
+    left: 30%;
     z-index: 2;
+  }
+
+  .mblcloud {
+    width: 100%;
+    height: 64%;
+    position: absolute;
+    bottom: 0;
+    top: 36%;
+    left: 0;
+    z-index: -1;
+  }
 }
