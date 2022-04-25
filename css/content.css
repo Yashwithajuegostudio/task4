@@ -9,22 +9,23 @@
   }
   h1 {
     text-transform: uppercase;
-    color: #C70039;
+    color: #D2273A;
     text-align: center;
     font-size: 1.5em;
     letter-spacing:2px;
     font-family: 'Roboto', sans-serif;
   }
-  p {
-    color: #C70039;
+.offer{
+    color: #BB696F;
     text-align: center;
     font-size: 18px;
     padding: 10px;
-    font-weight: lighter;
+    font-weight: 10;
     padding-bottom: 20px;
   }
   span {
-    color: rgb(113, 14, 14);
+    color: #A20317;
+    font-weight: bold;
   }
   .btn {
     padding: 10px;
@@ -32,8 +33,9 @@
     height: 60px;
     color: white;
     outline: none;
-    background-color:  rgb(123, 30, 95);
-    border: 0px solid  rgb(123, 30, 95);
+    background-color: #D21F34;
+   
+    border: 0px solid  #D21F34;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1em;
@@ -44,11 +46,11 @@
   a {
       padding-top: 20px;
     font-size: 13px;
-    color: black;
+    color: #010000;
   }
   
   .box {
-    width: 28%;
+    width: 29%;
     height: 12%;
     padding: 10px;
     position: absolute;
@@ -57,24 +59,24 @@
     transform: translate(-50%, -50%);
     z-index: 2;
     background-color: #ffffff;
-    border: 6px solid      #ffffff;
-    ;
+    
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 30px;
     box-shadow: 50px;
    
   }
   
-  .cookies,
+  .cookies, 
   a {
-   color: black;
-    font-size: 0.7em;
+   color:#222021;
+    font-size: 0.8em;
   }
   a{
     
     font-size: 1em;
   }
   h2 {
-    color: #C70039;
+    color: #D83145;
     padding: 10px;
     text-align: left;
     font-size: 1.3em;

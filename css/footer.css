@@ -3,7 +3,7 @@
   }
   li {
     text-transform: uppercase;
-    color: aqua;
+    color:#7BCEEE;
     font-size: 10px;
     float: left;
     padding-left: 20px;
@@ -15,7 +15,7 @@
   }
   .footer-page {
     width: 100%;
-    height: 5%;
+   
   }
   @media screen and (max-width: 1231px) {
     li {
