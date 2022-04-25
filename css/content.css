@@ -48,35 +48,44 @@
   }
   
   .box {
-    width: 39%;
-    height: 18%;
-    padding: 1px;
+    width: 28%;
+    height: 12%;
+    padding: 10px;
     position: absolute;
-    top: 87%;
-    left: 70%;
+   top: 90%;
+    left: 84%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    background-color: blueviolet;
-    border-radius: 20px;
+    background-color: #ffffff;
+    border: 6px solid      #ffffff;
+    ;
+    border-radius: 30px;
+    box-shadow: 50px;
+   
   }
+  
   .cookies,
-  h2 {
-    color: rgb(7, 5, 5);
+  a {
+   color: black;
+    font-size: 0.7em;
   }
-  .cookies,
-  .font-style {
-    font-size: 0.6em;
+  a{
+    
+    font-size: 1em;
   }
   h2 {
-    font-size: 0.9em;
+    color: #C70039;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.3em;
     text-transform: uppercase;
   }
-  @media screen and (max-width: 1231px) {
+  @media screen and (max-width: 1355px) {
     .page {
       width: 48%;
       height: 40%;
       position: absolute;
-      top: 80%;
+      top: 85%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 2;
@@ -103,30 +112,60 @@
         padding: 9px;
       font-size: 9px;
     }
-    .box {
-      width: 35%;
-      height: 18%;
-      padding: 1px;
-      position: absolute;
-      top: 87%;
-      left: 81%;
-  
-      border-radius: 10px;
+    .box,.cookies,.h2{
+      display: none;
     }
+    .box {
+      width: 28%;
+      height: 13%;
+      padding: 10px;
+      position: absolute;
+     top: 90%;
+      left: 84%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      background-color: white;
+      border-radius: 30px;
+     
+    }
+    
     .cookies,
-    .font-style {
-      font-size: 0.2em;
+    a {
+     color: black;
+      font-size: 0.7em;
+    }
+    a{
+      
+      font-size: 1em;
     }
     h2 {
-      font-size: 0.5em;
+      color: #C70039;
+      padding: 10px;
+      text-align: left;
+      font-size: 1.3em;
+      text-transform: uppercase;
     }
+    
+    
   }
-  @media screen and (max-width: 741px) {
+  @media   screen and (max-width:836px){
     .page {
       width: 80%;
       height: 30%;
       position: absolute;
-      top: 85%;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+    
+  }
+  @media screen and (max-width:741px) {
+    .page {
+      width: 80%;
+      height: 30%;
+      position: absolute;
+      top: 82%;
       left: 50%;
       transform: translate(-50%, -50%);
       z-index: 2;
@@ -152,8 +191,46 @@
   }
     .rules
      {
-       padding-top: 20px;
+       padding-top: 10px;
       font-size: 6px;
+    }
+   
+   
+    
+  }
+  @media screen  and (max-width:300px){
+    .page {
+      width: 60%;
+      height: 20%;
+     
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+    }
+    h1 {
+      font-size: 0.5em;
+    }
+    p {
+      font-size: 6px;
+  
+      padding-top: 5px;
+    }
+    .btn {
+      padding: 2px;
+      width: 50px;
+      height: 10px;
+  
+      font-size: 0.2em;
+      border-radius: 20px;
+    }
+  .hyperlink {
+      font-size:3px ;
+  }
+    .rules
+     {
+       padding-top: 5px;
+      font-size: 5px;
     }
    
     .box {
@@ -168,12 +245,12 @@
     }
     .cookies
    {
-      font-size: 0.2em;
+      font-size: 0.3em;
     }
     h2 {
       font-size: 0.5em;
     }
     
+    
   }
-  
   

@@ -40,7 +40,7 @@
   position: absolute;
   top: 80px;
 
-  left: 12%;
+  left: 13%;
   z-index: 2;
 }
 
@@ -101,7 +101,11 @@
   z-index: 2;
 }
 
-
+@media screen and (min-width:741px){
+  .mblcloud{
+    display: none;
+  }
+}
 @media screen and (max-width: 1231px) {
   .main-bg {
     height: 100%;
@@ -173,5 +177,17 @@
     top: 36%;
     left: 0;
     z-index: -1;
+  }
+}
+@media screen and (max-width: 300px){
+  .logo {
+
+    width: 80%;
+    height: 14%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+
   }
 }
