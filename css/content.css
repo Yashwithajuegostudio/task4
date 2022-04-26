@@ -96,7 +96,7 @@ h2 {
 @media screen and (max-width: 1355px) {
   .page {
     width: 48%;
-    height: 40%;
+    height: 20%;
     position: absolute;
     top: 83%;
     left: 50%;
@@ -204,8 +204,8 @@ h2 {
  
 
   .box {
-    width: 29%;
-    height: 12%;
+    width: 25%;
+    height: 7%;
     padding: 9px;
     
     position: absolute;
@@ -218,6 +218,7 @@ h2 {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 30px;
     box-shadow: 50px;
+   
   
   }
   
